@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/********  
+HEADER
+********/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84px;
+    background-color: aqua;
+}
+
+.row-nav{
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header li{
+    padding: 1px 16px;
+    
+}
