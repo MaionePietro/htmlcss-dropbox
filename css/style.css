@@ -10,6 +10,11 @@ a{
     text-decoration: none;
     color: black;
 }
+
+ul{
+    list-style: none;
+}
+
 img {
 	max-width: 100%;
 }
@@ -39,26 +44,27 @@ HEADER
 /********  
 MAIN
 ********/
-section{
+/* SECTION HERO */
+.section_hero{
     background-color: rgb(171,202,227);
 }
-section .container{
+.section_hero .container{
     max-width: 1256px;
 	margin: 0 auto;
 }
-section h1{
+.section_hero h1{
     font-size: 90px;
     font-weight: 900;
 }
-section .section__title{
+.section_hero .section__title{
     padding-top: 50px;
 }
-section .section__info{
+.section_hero .section__info{
     display: flex;
     margin-top: 50px;
     
 }
-section .info{
+.section_hero .info{
     display: flex;
     flex-direction: column;
     row-gap: 35px;
@@ -80,6 +86,40 @@ section .info{
 .fa-arrow-down{
     font-size: 50px;
 }
+/* SECTION HERO */
+
+
+/* SECTION PLANS */
+
+.section_plans{
+    max-width: 1041px;
+	margin: 0 auto;
+}
+.title__plans{
+    display: flex;
+    justify-content: center;
+}
+.section_plans h1{
+    font-size: 40px;
+    font-weight: 900;
+} 
+.row-plans{
+    display: flex;
+}
+.col-plans{
+    display: flex;
+    flex-basis: calc(100% / 3);
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 40px;
+}
+.standard-link{
+    text-decoration:underline;
+    color: cornflowerblue;
+}
+
+
+/* SECTION PLANS */
 /********  
 MAIN
 ********/
@@ -87,10 +127,10 @@ MAIN
 
 
 /* debug */
-/* .debug{
+ /* .debug{
     border: 2px dotted orange;
 }
 div{
     border: 2px dotted orange;
     padding: 2px;
-} */
+}  */
