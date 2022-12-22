@@ -39,6 +39,9 @@ HEADER
 /********  
 MAIN
 ********/
+section{
+    background-color: rgb(171,202,227);
+}
 section .container{
     max-width: 1256px;
 	margin: 0 auto;
@@ -47,6 +50,36 @@ section h1{
     font-size: 90px;
     font-weight: 900;
 }
+section .section__title{
+    padding-top: 50px;
+}
+section .section__info{
+    display: flex;
+    margin-top: 50px;
+    
+}
+section .info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    flex-basis: 50%;
+    padding-bottom: 24px;
+}
+.button{
+    display: block;
+	width: max-content;
+	padding: 0 12px;
+	text-align: center;
+	line-height: 46px;
+	white-space: nowrap;
+}
+.button__blu{
+    background-color: rgb(0,87,255);
+    color: white;
+}
+.fa-arrow-down{
+    font-size: 50px;
+}
 /********  
 MAIN
 ********/
@@ -54,10 +87,10 @@ MAIN
 
 
 /* debug */
-.debug{
+/* .debug{
     border: 2px dotted orange;
 }
 div{
     border: 2px dotted orange;
     padding: 2px;
-}
+} */
