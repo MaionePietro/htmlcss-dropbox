@@ -30,21 +30,34 @@ header{
 
 header li{
     padding: 1px 16px;
-    background-color: bisque;
 }
 /********  
 HEADER
 ********/
 
-/********  
-MAIN
-********/
 
 /********  
 MAIN
 ********/
+section .container{
+    max-width: 1256px;
+	margin: 0 auto;
+}
+section h1{
+    font-size: 90px;
+    font-weight: 900;
+}
+/********  
+MAIN
+********/
+
+
 
 /* debug */
 .debug{
     border: 2px dotted orange;
+}
+div{
+    border: 2px dotted orange;
+    padding: 2px;
 }
