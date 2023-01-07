@@ -189,7 +189,46 @@ section:not(.section_hero) h1{
 MAIN
 ********/
 
+/********  
+FOOTER
+********/
+footer{
+    height: 596px;
+}
+footer, footer a{
+    background-color: black;
+    color: white;
+    font-weight:lighter;
+    font-size: small;
+}
+footer .row:first-child{
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li:first-child{
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+footer li,a{
+    padding: 10px 0px;
+}
 
-.section_options *{
+footer .row:last-child{
+    padding-top: 100px;
+}
+hr{
+    color: white;
+    width: 100px;
+}
+footer span::after{
+    content: "\1FB6F";
+    color: white;
+}
+/********  
+FOOTER
+********/
+.container_smal *{
     border: 1px dotted orange;
 }
