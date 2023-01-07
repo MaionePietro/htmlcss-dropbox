@@ -44,6 +44,11 @@ HEADER
 /********  
 MAIN
 ********/
+
+section:not(.section_hero) h1{
+    font-size: 40px;
+}
+
 /* SECTION HERO */
 .section_hero{
     background-color: rgb(171,202,227);
@@ -90,8 +95,7 @@ MAIN
 
 
 /* SECTION PLANS */
-
-.container_small .row{
+.section_plan .container_small .row{
     margin: 40px;
 }
 .container_small{
@@ -136,7 +140,7 @@ MAIN
 .section_partner .container_small{
     display: flex;
 }
-.container_small img{
+.section_partner .container_small img{
     width: 626px;
     height: 500px;
 }
@@ -155,14 +159,37 @@ MAIN
     margin: 30px;
 }
 
-
 /* SECTION PARTNER */
+
+/* SECTION OPTION */
+.section_option .row .col:first-child{
+    padding: 40px;
+    padding-left: 0px;
+}
+.section_option .col:not(h1){
+    display: flex;
+    justify-content: space-between;
+}
+.section_option img{
+    width: 100%;
+}
+.card figure{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    max-width: 309px;
+}
+.section_option figcaption *{
+    margin: 25px 0px;
+}
+/* SECTION OPTION */
 
 /********  
 MAIN
 ********/
 
 
-.section_partnere *{
+.section_options *{
     border: 1px dotted orange;
 }
