@@ -187,13 +187,29 @@ section:not(.section_hero) h1{
 
 
 /* SECTION INFO */
-    .section_info *{
-        padding: 90px 0px;
-    }
+.section_info *{
+    padding: 90px 0px;
+}
 /* SECTION INFO */
 
 
 /* SECTION DESING */
+.section_free *{
+    padding: 70px 0px;
+}
+.section_free{
+    background-color: rgb(171,202,227);
+}
+.section_free .container_small{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section_free a{
+    background-color: white;
+    padding: 10px 50px;
+}
+
 
 /* SECTION DESING */
 
