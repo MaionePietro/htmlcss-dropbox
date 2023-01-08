@@ -194,6 +194,12 @@ section:not(.section_hero) h1{
 
 
 /* SECTION DESING */
+
+
+/* SECTION DESING */
+
+
+/* SECTION FREE */
 .section_free *{
     padding: 70px 0px;
 }
@@ -209,18 +215,24 @@ section:not(.section_hero) h1{
     background-color: white;
     padding: 10px 50px;
 }
-
-
-/* SECTION DESING */
-
-
-/* SECTION FREE */
-
 /* SECTION FREE */
 
 
 /* SECTION QUESTION */
-
+.section_question{
+    padding: 60px 0px;
+    padding-bottom: 150px;
+}
+.section_question h1{
+    padding: 70px 0px;
+}
+.box_question{
+    padding: 30px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
 /* SECTION QUESTION */
 
 
